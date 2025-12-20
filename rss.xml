@@ -2,6 +2,7 @@
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>八分半</title>
+	<itunes:type>serial</itunes:type>
     <description><![CDATA[
 首季《八分半》共80集，每周三、周五更新。<br>
 <br>
