@@ -63,7 +63,7 @@ rssLink.addEventListener('click', async (e) => {
     const success = await copyToClipboard(rssLink.href);
 
     if (success) {
-        rssLink.textContent = "COPIED";
+        rssLink.textContent = "copied";
         adjustFontSize();
         
         setTimeout(() => {
@@ -71,7 +71,7 @@ rssLink.addEventListener('click', async (e) => {
             adjustFontSize();
         }, 2000);
     } else {
-        rssLink.textContent = "COPY FAILED";
+        rssLink.textContent = "copy failed";
         adjustFontSize();
         setTimeout(() => {
             rssLink.textContent = originalText;
