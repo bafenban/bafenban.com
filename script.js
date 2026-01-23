@@ -69,14 +69,14 @@ rssLink.addEventListener('click', async (e) => {
         setTimeout(() => {
             rssLink.textContent = originalText;
             adjustFontSize();
-        }, 2000);
+        }, 1000);
     } else {
         rssLink.textContent = "copy failed";
         adjustFontSize();
         setTimeout(() => {
             rssLink.textContent = originalText;
             adjustFontSize();
-        }, 2000);
+        }, 1000);
     }
 });
 
